@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Reading CSV file
-df = pd.read_csv("files/clientes.csv")
+df = pd.read_csv("resources/files/clientes.csv")
 
 def handling_empty_values(df):
     # Converting values in "TotalGasto" into numeric data
